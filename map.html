@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_07d17e3d45c6763e8e6459c6913600db {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_07d17e3d45c6763e8e6459c6913600db" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_07d17e3d45c6763e8e6459c6913600db = L.map(
+                "map_07d17e3d45c6763e8e6459c6913600db",
+                {
+                    center: [50.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_abcc9f9469c412241ee95bcd247e098a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_abcc9f9469c412241ee95bcd247e098a.addTo(map_07d17e3d45c6763e8e6459c6913600db);
+        
+    
+            var marker_c8064afb273e73fc926fcdc4cc76af5d = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(map_07d17e3d45c6763e8e6459c6913600db);
+        
+    
+        var popup_5cc6e21a5ee8d7e1e401c9d3d2b2f287 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9897b3b37edc27110bd9eca1b00f0232 = $(`<div id="html_9897b3b37edc27110bd9eca1b00f0232" style="width: 100.0%; height: 100.0%;">Germany</div>`)[0];
+                popup_5cc6e21a5ee8d7e1e401c9d3d2b2f287.setContent(html_9897b3b37edc27110bd9eca1b00f0232);
+            
+        
+
+        marker_c8064afb273e73fc926fcdc4cc76af5d.bindPopup(popup_5cc6e21a5ee8d7e1e401c9d3d2b2f287)
+        ;
+
+        
+    
+    
+            var marker_5c5f696bc7bcca2717a9842e0f8d1c6f = L.marker(
+                [48.2082, 16.3738],
+                {}
+            ).addTo(map_07d17e3d45c6763e8e6459c6913600db);
+        
+    
+        var popup_dd376e2e35cdf6299dd29089b02c8e44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b63c845567c2d9bf0c5bdffe1c6b19bf = $(`<div id="html_b63c845567c2d9bf0c5bdffe1c6b19bf" style="width: 100.0%; height: 100.0%;">Austria</div>`)[0];
+                popup_dd376e2e35cdf6299dd29089b02c8e44.setContent(html_b63c845567c2d9bf0c5bdffe1c6b19bf);
+            
+        
+
+        marker_5c5f696bc7bcca2717a9842e0f8d1c6f.bindPopup(popup_dd376e2e35cdf6299dd29089b02c8e44)
+        ;
+
+        
+    
+</script>
+</html>
