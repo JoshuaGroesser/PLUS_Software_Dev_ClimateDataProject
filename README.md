@@ -15,8 +15,9 @@ Let us start with a brainstorming of what might be possible/cool/interesting/...
 
 
 Tasks:
-- [ ] Proposal delivery (all)
-  - [ ] Contribute to the proposal up to 9.5. (Deadline (!) is 10.5., 23:59)
+- [x] Proposal delivery (all)
+  - [x] Contribute to the proposal up to 9.5. (Deadline (!) is 10.5., 23:59)
+  - [x] Meeting on 13.05.2024 to discuss individual responsibilities in detail until next meetup
 - [ ] taking a look into the libraries (meteostat/geopanda/folium) (all)
   - [ ] try to get the example code from github running until 
 - [ ] data analysis (entry level: all, advanced: tbd)
