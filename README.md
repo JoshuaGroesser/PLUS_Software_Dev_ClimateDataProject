@@ -1,11 +1,4 @@
 # PLUS_Software_Dev_ClimateDataProject
-## Meetings
-| **Date & Time**      | *Time required* | *Description*               | 
-|----------------------|-----------------|-----------------------------|
-| **May 23rd; 15:00**  | open end        | Codealong/Colab Work Sesh   |
-| **May 27th; 12:00**  | 2h max          | Project Meeting after class |
-
-
 ## Tasks:
 - [ ] taking a look into the libraries (meteostat/geopanda/folium) (all)
   - [ ] try to get the example code from github running until
