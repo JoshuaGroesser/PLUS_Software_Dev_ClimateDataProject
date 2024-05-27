@@ -1,15 +1,16 @@
 # PLUS_Software_Dev_ClimateDataProject
 ## Tasks:
-- [ ] taking a look into the libraries (meteostat/geopanda/folium) (all)
-  - [ ] try to get the example code from github running until
 - [ ] data analysis (entry level: all, advanced: tbd)
 - [ ] visualize data (entry level: all, advanced: tbd)
+- [ ] work _collaboratively_ in github
 - [ ] documentation
 
 ### Done:
 - [x] Proposal delivery (all)
   - [x] Contribute to the proposal up to 9.5. (Deadline (!) is 10.5., 23:59)
-     
+- [x] taking a look into the libraries (meteostat/geopanda/folium) (all)
+  - [x] try to get the example code from github running until
+
 ### Suspended
 - [ ] QGIS plugin (tbd)
 - [ ] GUI (tbd)
