@@ -24,7 +24,22 @@
 ### Meeting May 27th
 - QGIS may be too much work and too far off the intended purpose of the project (for now!). Suspended until we know the progress.
 - Polar Coordinate Visualisation is basically understood, but wind speed aggregation still produces some issues (aggregation frames? means? sums?)
-- 
+
+#### meteostat data queries:
+	daily -  query only one month
+	monthly - query only one year
+
+- wind data (vector calculus?)
+	- how is that usually handled?
+
+- one region, different stations, for now:  30 closest stations, add distance filter?
+
+- Github:
+  actually collaborate! 
+  	pull before working, push after working
+  	common environment: David will set up a .yaml for the basic environment that covers most stuff. Use it!
+
+
 
 # Brainstorming
 Let us start with a brainstorming of what might be possible/cool/interesting/... Feel free to add whatever you want:
