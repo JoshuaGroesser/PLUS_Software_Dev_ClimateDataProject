@@ -11,17 +11,20 @@
   - [ ] try to get the example code from github running until
 - [ ] data analysis (entry level: all, advanced: tbd)
 - [ ] visualize data (entry level: all, advanced: tbd)
-- [ ] qgis plugin (tbd)
-- [ ] gui (tbd)
 - [ ] documentation
 
 ### Done:
 - [x] Proposal delivery (all)
   - [x] Contribute to the proposal up to 9.5. (Deadline (!) is 10.5., 23:59)
+     
+### Suspended
+- [ ] QGIS plugin (tbd)
+- [ ] GUI (tbd)
 
-### David:
-  - [ ] QGIS plugin feasibility
-  - [ ] QGIS GUI development
+### Meeting May 27th
+- QGIS may be too much work and too far off the intended purpose of the project (for now!). Suspended until we know the progress.
+- Polar Coordinate Visualisation is basically understood, but wind speed aggregation still produces some issues (aggregation frames? means? sums?)
+- 
 
 # Brainstorming
 Let us start with a brainstorming of what might be possible/cool/interesting/... Feel free to add whatever you want:
