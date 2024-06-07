@@ -1,0 +1,21 @@
+name: geospatial_climate_ds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - geopandas
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn
+  - pip
+  - pip:
+      - meteostat
+      - opencv-python
+      - opencv-contrib-python
+      - torchviz
+prefix: C:\Users\PC\anaconda3\envs\geospatial_climate_ds
